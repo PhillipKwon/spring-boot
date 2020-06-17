@@ -5,5 +5,9 @@ import lombok.Data;
 @Data
 public class Board {
     
-    provate 
+    private Integer boardId;
+
+    private String title;
+
+    private String content;
 }
